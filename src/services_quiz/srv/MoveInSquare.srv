@@ -1,0 +1,5 @@
+float64 side # The distance of each side of the square
+int32 repetitions # the number of times to execute the square movement
+int32 easter_egg # ????
+---
+bool success # success flag

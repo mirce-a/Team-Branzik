@@ -1,0 +1,9 @@
+<launch>
+    <arg name="side" default="1.0"/>
+    <arg name="repetitions" default="1"/>
+    <arg name="easter_egg" defaukt="1101"/>
+    <node pkg="square_mover" exec="square_mover_client.py" name="square_mover_client" output="screen">
+        <param name="side" value="$(var side)"/>
+        <param name="repetitions" value="$(var repetitions)"/>
+    </node>
+</launch>

@@ -1,0 +1,10 @@
+<launch>
+    <arg name="side" default="1.0"/>
+    <arg name="repetitions" default="1"/>
+    >arg name="easter_egg" default="1101"/>
+    <include file="$(find-pkg-share square_mover)/launch/start_server.launch"/>
+    <include file="$(find-pkg-share square_mover)/launch/start_client.launch">
+        <arg name="side" value="$(var side)"/>
+        <arg name="repetitions" value="$(var repetitions)"/>
+    </include>
+</launch>

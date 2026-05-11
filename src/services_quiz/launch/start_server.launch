@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="service_quiz" exec="square_mover_server.py" name="square_mover_server" output="screen"/>
+</launch>
