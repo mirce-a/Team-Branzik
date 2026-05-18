@@ -1,0 +1,50 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/paynekujem/Team-Branzik/devel
+-- Using CMAKE_PREFIX_PATH: /home/paynekujem/simulations_wc/devel;/home/paynekujem/catkin_ws/devel;/opt/ros/noetic
+-- This workspace overlays: /home/paynekujem/simulations_wc/devel;/home/paynekujem/catkin_ws/devel;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/paynekujem/Team-Branzik/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.12
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 2 packages in topological order:
+-- ~~  - ardrone_action_pkg
+-- ~~  - topics_quiz
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'ardrone_action_pkg'
+-- ==> add_subdirectory(actions_quiz)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring incomplete, errors occurred!
+See also "/home/paynekujem/Team-Branzik/build/CMakeFiles/CMakeOutput.log".
+See also "/home/paynekujem/Team-Branzik/build/CMakeFiles/CMakeError.log".
+Base path: /home/paynekujem/Team-Branzik
+Source space: /home/paynekujem/Team-Branzik/src
+Build space: /home/paynekujem/Team-Branzik/build
+Devel space: /home/paynekujem/Team-Branzik/devel
+Install space: /home/paynekujem/Team-Branzik/install
+####
+#### Running command: "cmake /home/paynekujem/Team-Branzik/src -DCATKIN_DEVEL_PREFIX=/home/paynekujem/Team-Branzik/devel -DCMAKE_INSTALL_PREFIX=/home/paynekujem/Team-Branzik/install -G Unix Makefiles" in "/home/paynekujem/Team-Branzik/build"
+####
+... logging to /home/paynekujem/.ros/log/44d9597c-52b7-11f1-b792-8383782a05ff/roslaunch-paynekujem-750QGK-5785.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/paynekujem/Team-Branzik/src/actions_quiz/launch/drone_action.launch
+[rosrun] Couldn't find executable named drone_action_client.py below /home/paynekujem/Team-Branzik/src/actions_quiz
+[rosrun] Found the following, but they're either not files,
+[rosrun] or not executable:
+[rosrun]   /home/paynekujem/Team-Branzik/src/actions_quiz/pkg/drone_action_client.py
+[rosrun] Couldn't find executable named drone_action_client.py below /home/paynekujem/Team-Branzik/src/actions_quiz
+[rosrun] Found the following, but they're either not files,
+[rosrun] or not executable:
+[rosrun]   /home/paynekujem/Team-Branzik/src/actions_quiz/pkg/drone_action_client.py

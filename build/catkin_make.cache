@@ -1,0 +1,2 @@
+actions_quiz:topics_quiz
+-DCATKIN_DEVEL_PREFIX=/home/paynekujem/Team-Branzik/devel -DCMAKE_INSTALL_PREFIX=/home/paynekujem/Team-Branzik/install -G Unix Makefiles

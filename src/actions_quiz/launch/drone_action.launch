@@ -1,0 +1,10 @@
+<launch>
+    <arg name="takeoff_topic" default="/takeoff"/>
+    <arg name="land_topic" default="/land"/>
+    <arg name="cmd_vel_topic" default="/cmd_vel"/>
+    <node pkg="ardrone_action_pkg" exec="drone_action_server.py" name="drone_action_server" output="screen">
+        <remap from="/takeoff" to="$(var takeoff_topic)"/>
+        <remap from="/land" to="$(var land_topic)"/>
+        <remap from="/cmd_vel" to="$(var cmd_vel_topic)"/>
+    </node>
+</launch>
