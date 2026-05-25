@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="topics_quiz_redare" type="avoid_wall.py" name="topics_quiz_redare_node" output="screen">
+    </node>
+</launch>
+
